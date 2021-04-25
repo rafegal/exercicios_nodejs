@@ -100,9 +100,9 @@ let idade = 2
 
 Em linguagens de programação temos tipos de dados, no javascript temos alguns como:
 
-**string:** São textos. Exemplo: "Rafael", "Galleani", "", " ", " - ", "10"
-**Number:** São números. Exemplo: 10, 100, -20, 10.5
-**Boolean:** São binários, ou seja, podem apenas se verdadeiros ou falsos. Exemplo: true, false
+**string:** São textos. Exemplo: "Rafael", "Galleani", "", " ", " - ", "10"  
+**Number:** São números. Exemplo: 10, 100, -20, 10.5  
+**Boolean:** São binários, ou seja, podem apenas se verdadeiros ou falsos. Exemplo: true, false  
 **object:** Qualquer outro tipo diferente dos acimas, um array por exemplo é do tipo object.
 
 Os tipos ajudar o interpretador da linguagem a decidir como irá processar ações entre os tipos.  
@@ -565,14 +565,16 @@ console.log(resultado)
 ## 4.
 
 ```javascript
-let array = [10, 5, 7, 14, 8];
+let array = [10, 15, 7, 14, 8];
 let resultado = 0
+let resultadoIndice = 0
 for (let i = 0; i < array.length; i++) {
   if (array[i] > resultado){
-      resultado = i
+      resultado = array[i]
+      resultadoIndice = i
   }
 }
-console.log(resultado)
+console.log(resultado, resultadoIndice)
 ```
 
 ## 5.
