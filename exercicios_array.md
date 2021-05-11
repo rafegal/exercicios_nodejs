@@ -31,7 +31,7 @@ console.log("Média da temperatura:", resultado.media)
 
 ```
 
-## 3. Crie uma função que recebe um array de inteiros e um valor inteiro x e retorne a quantidade de vezes que x aparece no array a.
+## 3. Crie uma função que recebe um array de numeros inteiros e um valor que é um numero inteiro e então retorne a quantidade de vezes que esse valor de numero inteiro aparece no array.
 
 **x está sendo representado pela variável de entrada numero**
 
