@@ -1,7 +1,4 @@
 
-
-
-
 # Exercicios 
 
 ## 1. Crie uma função que recebe um array de números inteiros e retorne a quantidade de elementos do array que são números negativos.
@@ -23,8 +20,15 @@ function validaTemperatura(temperaturas){
 
     // escreva seu código aqui
 
-    return maiorTemperatura, menorTemperatura, media
+    return {maiorTemperatura, menorTemperatura, media}
 }
+
+let temperatura = [20, 23, 12, 14, 30, 21, 31, 37, 5, 9]
+let resultado = validaTemperatura(temperatura)
+console.log("Maior temperatura:", resultado.maiorTemperatura)
+console.log("Menor temperatura:", resultado.menorTemperatura)
+console.log("Média da temperatura:", resultado.media)
+
 ```
 
 ## 3. Crie uma função que recebe um array de inteiros e um valor inteiro x e retorne a quantidade de vezes que x aparece no array a.
