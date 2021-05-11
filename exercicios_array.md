@@ -39,7 +39,12 @@ console.log("Média da temperatura:", resultado.media)
 
 function validaRepeticaoNumeroNoArray(array, numero){
     // escreva seu código aqui
+    
 }
+
+let array = [10, 10, 5, 2, 2, 10]
+let vezesRepetidas = validaRepeticaoNumeroNoArray(array, 10)
+console.log(vezesRepetidas)
 ```
 
 ## 4. Crie uma função que recebe um array de números e devolve a posição onde se encontra o maior valor do array. Se houver mais de um valor maior, devolver a posição da primeira ocorrência.
