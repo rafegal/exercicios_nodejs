@@ -63,10 +63,45 @@ function validaNumerosPositivos(array){
 }
 ```
 
-## 6. Crie um método que recebe um array de inteiros positivos e substitui seus elementos de valor ímpar por -1 e os pares por +1.
+## 6. Crie uma função que recebe um array de inteiros positivos e substitui seus elementos de valor ímpar por -1 e os pares por +1.
 
 ```js
 function validaNumerosParesImpares(array){
     // escreva seu código aqui
 }
 ```
+
+## 7. Crie uma função que recebe um array de números e retorne um novo array com o mesmo números porém sem duplicar nenhum número.
+## Exemplo: 
+          input:  [1, 2, 2, 3, 10, 5, 10, 4]
+          output: [1, 2, 3, 10, 5, 4]
+
+```js
+function removeNumerosDuplicados(array){
+    // escreva seu código aqui
+}
+```
+
+## 8. Crie uma função que receba um array de string e retorne a string com mais caracteres.
+## Exemplo: 
+          input:  ["Gato", "Cachorro", "Zebra", "Boi"]
+          output: "Cachorro"
+
+```js
+function identificaMaiorString(array){
+    // escreva seu código aqui
+} 
+```
+
+## 9. Crie uma função que receba uma array e um número como input e retorne o array sem o numero informado no input
+
+## Exemplo: 
+          input:  [3, 4, 2, 7, 10, 14], 7
+          output: [3, 4, 2, 10, 14]
+
+```js
+function removeElementoDoArray(array, numero){
+    // escreva seu código aqui
+}
+```
+
