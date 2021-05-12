@@ -105,3 +105,50 @@ function removeElementoDoArray(array, numero){
 }
 ```
 
+## 10. Crie uma função que retorne um array com os números pares de 0 a 100.
+
+## Exemplo: 
+          output: [2, 4, 6, 8, 10, 12...]
+
+```js
+function retornaNumerosPares(array){
+    // escreva seu código aqui
+}
+```
+
+## 11. Crie uma função que receba dois arrays como input, retorne a intersecção desses dois arrays.
+## Intersecção: Intersecção é o que tem nos dois conjuntos, nos caso nos dois array.
+## Exemplo:
+        input:  [10, 20, 21, 23, 32, 34]
+                [10, 19, 21, 24, 31, 34]
+        output: [10, 21, 34]
+
+```js
+function retornaInterseccao(arrayA, arrayB){
+    // escreva seu código aqui
+}
+```
+
+## 11. Crie uma função que receba dois arrays como input, retorne um array com a união desses dois arrays, ou seja, um novo array com os elementos dos dois arrays.
+## Exemplo:
+        input:  [10, 20, 30, 31]
+                [35, 40, 50]
+        output: [10, 20, 30, 31, 35, 40, 50]
+
+```js
+function retornaUniao(arrayA, arrayB){
+    // escreva seu código aqui
+}
+```
+
+## 12. Crie uma função que receba dois array como input, retorne um novo array com os dados que existem no primeiro array mas não existem no segundo array
+## Exemplo:
+        input:  [5, 10, 20, 30, 31]
+                [1, 2, 10, 20]
+        output: [5, 30, 31]
+
+```js
+function retornaDiferenca(arrayA, arrayB){
+    // escreva seu código aqui
+}
+```
