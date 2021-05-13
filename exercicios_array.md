@@ -189,7 +189,7 @@ function retornaNumerosPares(array){
 }
 ```
 
-## 15. Crie uma função que um número e imprima na tela a tabuado daquele número do 1 ao 10.
+## 15. Crie uma função que receba um número e imprima na tela a tabuado daquele número do 1 ao 10.
             
 
 ```js
