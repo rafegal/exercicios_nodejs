@@ -176,3 +176,24 @@ function retornaNumerosPares(array){
     // escreva seu código aqui
 }
 ```
+
+
+## 14. Crie uma função que receba um array e um novo array apenas com os números pares. Utilize função filter.
+## Exemploa
+        input:  [1, 2, 3, 10, 12]                
+        output: [2, 10, 12]
+
+```js
+function retornaNumerosPares(array){
+    // escreva seu código aqui
+}
+```
+
+## 15. Crie uma função que um número e imprima na tela a tabuado daquele número do 1 ao 10.
+            
+
+```js
+function tabuada(numero){
+    // escreva seu código aqui
+}
+```
