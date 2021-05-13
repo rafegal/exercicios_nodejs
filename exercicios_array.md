@@ -152,3 +152,27 @@ function retornaDiferenca(arrayA, arrayB){
     // escreva seu código aqui
 }
 ```
+
+
+## 13. Crie uma função que receba um array e retorne um novo array com os valores dobrados. Utilize função map.
+## Exemploa
+        input:  [1, 2, 3, 10, 12]                
+        output: [2, 4, 6, 20, 24]
+
+```js
+function retornaArrayDobrado(array){
+    // escreva seu código aqui
+}
+```
+
+
+## 14. Crie uma função que receba um array e um novo array apenas com os números pares. Utilize função filter.
+## Exemploa
+        input:  [1, 2, 3, 10, 12]                
+        output: [2, 10, 12]
+
+```js
+function retornaNumerosPares(array){
+    // escreva seu código aqui
+}
+```
